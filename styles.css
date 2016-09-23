@@ -1,0 +1,170 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Montserrat';
+
+
+body {
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.42857143;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.brand {
+  margin-right: auto;
+  font-size: 1.4em;
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+.header-link {
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1;
+  margin-top: 64px;
+}
+
+.content-panel {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.odd {
+  background: #18bc9c;
+  color: #ffffff;
+}
+
+.even {
+  background: #ffffff;
+}
+
+.hero {
+  max-width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    
+}
+.bar-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 15px;
+}
+
+.bar-icon {
+  font-size 20px;
+  padding: 0 15px;
+}
+
+.bar-white:first-child {
+  margin-left: 15px;
+}
+
+.bar-white:last-child {
+  margin-right: 15px;
+}
+
+.bar-white {
+  background: white;
+  height: 3px;
+  flex: 1;
+}
+
+.hero-image {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.hero-header {
+  padding-top: 30px;
+  max-width: 100%;
+  font-size: 4.3em;
+}
+
+.hero-subheading {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  padding-bottom: 50px;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+}
+
+
+.footer-content {
+  margin-top: 50px;
+  display: flex;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-cell {
+  flex-basis: 33vw;
+  min-width: 330px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer-col {
+  text-align: center;
+  max-width: calc(100vw - 60px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.tagline {
+  background: #233140;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-col h3 {
+  padding-bottom: 30px;
+}
