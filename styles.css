@@ -141,7 +141,7 @@ footer {
 }
 
 .footer-cell {
-  flex-basis: 33vw;
+  flex-basis: 32vw;
   min-width: 330px;
   display: flex;
   justify-content: center;
